@@ -1,0 +1,9 @@
+def count():
+    counter = 0
+    characters = input("Write something: ")
+    for character in characters:
+        counter += 1
+    return counter
+
+
+print(count())
