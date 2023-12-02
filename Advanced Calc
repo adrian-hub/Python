@@ -1,0 +1,39 @@
+print("Hello World")
+print("Hello World")
+firstname = "David"
+print(firstname)
+lastname = input("Please, enter your lastname: ")
+print("Welcome {} {}".format(firstname, lastname))
+ID = 4444
+name = "David Cooper"
+age = int(input("Please, enter your age: "))
+print(type(age))
+if age == 18 or age > 18:
+    print("You can gain access")
+else:
+    print("Access Denied, you are too young.")
+num1 = input("Please, enter first number: ")
+num2 = input("Please, enter second number: ")
+if num1 == num2:
+    print("Equals")
+elif num1 > num2:
+    print(num1 + " is bigger than " + num2)
+else:
+    print(num2 + " is bigger than " + num1)
+num3 = int(input("Please, enter your third number "))
+num4 = int(input("Please, enter your fourth number "))
+opt = input("What operation would you like to do"
+            "+"
+            "-"
+            "*"
+            "/")
+if opt == "+":
+    print("The result is {}: ".format(num3+num4))
+elif opt == "-":
+    print("The result is {}: ".format(num3-num4))
+elif opt == "*":
+    print("The result is {}: ".format(num3*num4))
+elif opt == "/":
+    print("The result is {} ".format(num3/num4))
+else:
+    print("Invalid option")
