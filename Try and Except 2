@@ -1,0 +1,6 @@
+try:
+    num1 = 2
+    num2 = -2
+    print(num1**num2)
+finally:
+    print("A number raised to a minus power means raising that number to inverse of power without a minus")
