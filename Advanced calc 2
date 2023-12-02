@@ -1,0 +1,23 @@
+num1 = int(input("Please, enter your first number "))
+num2 = int(input("Please, enter your second number "))
+opt = input("What operation would you like to perform?"
+            "+"
+            "-"
+            "*"
+            "/"
+            "**"
+            "//")
+if opt == "+":
+    print("The result is {} ".format(num1+num2))
+elif opt == "-":
+    print("The result is {} ".format(num1-num2))
+elif opt == "*":
+    print("The result is {} ".format(num1*num2))
+elif opt == "/":
+    print("The result is {} ".format(num1/num2))
+elif opt == "**":
+    print("The result is {} ".format(num1**num2))
+elif opt == "//":
+    print("The result is {} ".format(num1//num2))
+else:
+    print("Invalid Option")
