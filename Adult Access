@@ -1,0 +1,6 @@
+ge = int(input("Please, enter your age "))
+if age > 18:
+    print("Access granted")
+elif age < 18:
+    print("Access Denied")
+print(type(age))
