@@ -1,0 +1,12 @@
+cars = []
+for car in range(4):
+    name = input("Please enter the car name: ")
+    cars. append(name)
+choice = input("Do you want to see all the list items? (yes/no): ")
+if choice == "yes":
+    for car in cars:
+        print(car)
+elif choice == "no":
+    print("Bye Bye")
+else:
+    print("Invalid Option!")
