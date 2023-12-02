@@ -1,0 +1,9 @@
+products = {}
+amount = int(input("How many items do you have on your list? "))
+totalprice = 0
+for item in range(amount):
+    product = input("Write your product: ")
+    price: int = int(input("Price in $: "))
+    products[product] = price
+    totalprice += price
+print("The total price is {}$".format(totalprice))
